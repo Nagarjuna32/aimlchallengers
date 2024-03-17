@@ -1,0 +1,36 @@
+URL for getting score which are not part of PDF
+1. https://www.sustainalytics.com/esg-ratings /    ex: https://www.sustainalytics.com/esg-rating/nordson-corp/1008021860
+2. CDP : https://www.cdp.net/en/responses?queries%5Bname%5D=graco
+3.  SBTi : https://sciencebasedtargets.org/companies-taking-action#dashboard
+
+
+Required Details for submission
+-------------------------------
+1. API response as per api swagger file
+2. 4th end point. you can return the URL of PDF and return the PDF im however creative way you want to represent the esg indicators for given entity
+3. Please make sure you retain the same reponse format including the values in key as it helps auto evalaution process
+4. Please refer to "challenge-assets/sustainability-benchmarking/Sustainability Benchmarking  Forecasting_V1.0.docx"
+for list of artifacts which needs to be submitted
+
+
+PDF URLS(already mentioned in document)
+----
+https://www.spx.com/wp-content/uploads/2023/09/SPX_SustainabilityReport_2022_FINAL.pdf
+https://www.idexcorp.com/wp-content/uploads/2023/05/IDEX_SustainabilityReport2022_accessible_version.pdf
+
+https://nc-p-001.sitecorecontenthub.cloud/api/public/content/0b4bfc20c6934b9da852c6e38976f06f?v=a16d1c0d
+https://www.graco.com/content/dam/graco/corporate/literature/misc/Graco-ESG-Report.pdf
+https://files.chartindustries.com/ESG2022.pdf
+https://curtisswright.com/company/sustainability/default.aspx - no
+https://www.craneco.com/wp-content/uploads/2023/03/Crane-Co_PSE_2022_2.27.23_FINAL.pdf
+https://dam.watts.com/AssetLink/630570.pdf
+https://fele.widen.net/s/9xsgtltcfp/m1952_sustainability_report_2023
+https://www.cmco.com/globalassets/about-us/csr/fy23-columbus-mckinnon-csr-report.pdf
+https://investors.ametek.com/static-files/5a472cca-7866-4533-b017-af56841e9198
+https://s27.q4cdn.com/316069443/files/doc_downloads/2023/09/enpro_sustainability23_final.pdf
+https://www.escotechnologies.com/wp-content/uploads/2023/07/2022_ESCO_ESG_Report.pdf
+https://www.graco.com/content/dam/graco/corporate/literature/misc/Graco-ESG-Report.pdf
+https://dlio3yog0oux5.cloudfront.net/parker/files/pages/corporate-governance/sustainability-report/PH_2022_Sustainability_Report.pdf
+https://investor.rbcbearings.com/esg/governance
+https://s28.q4cdn.com/452460759/files/doc_downloads/2022/12/2022-Regal-Rexnord-Sustainability-Report.pdf
+https://literature.rockwellautomation.com/idc/groups/literature/documents/br/esap-br032_-en-p.pdf 
