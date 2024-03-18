@@ -21,4 +21,4 @@ steps:
     azureSubscription: 'c452acc8-a47a-49f1-801d-ecf1d378fc6d'
     appName: 'benchmark-aimlchallengers'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    startUpCommand: 'gunicorn -b :80 app:main'
+    startUpCommand: 'gunicorn -b :80 main:app'
