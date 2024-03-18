@@ -1,24 +1,9 @@
-name: Azure App Service
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT main:app
 
-trigger:
-- main
+runtime_config:
+  python_version: 3
 
-pool:
-  vmImage: 'ubuntu-latest'
-
-steps:
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.x'
-    addToPath: true
-
-- script: |
-    pip install -r requirements.txt
-  displayName: 'Install dependencies'
-
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'c452acc8-a47a-49f1-801d-ecf1d378fc6d'
-    appName: 'benchmark-aimlchallengers'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    startUpCommand: 'gunicorn -b :80 main:app'
+manual_scaling:
+  instances: 1

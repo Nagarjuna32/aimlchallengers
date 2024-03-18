@@ -5,4 +5,4 @@ app = Flask(__name__)
 from benchmark import *
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=True)
