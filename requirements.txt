@@ -3,4 +3,4 @@ gunicorn==20.1.0; python_version >= '3.0'
 gunicorn==19.10.0; python_version < '3.0'
 azure-storage-blob==12.8.1
 PyPDF2
-Werkzeug
+Werkzeug==2.2.2
